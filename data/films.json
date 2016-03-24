@@ -1,0 +1,168 @@
+﻿[
+    {
+        "id": 1,
+        "title": "The Imitation Game",
+        "year": 2014,
+        "duration": 114,
+        "rating": {
+            "value": 8.2,
+            "users": 68379
+        },
+        "genre": [ "Biography", "Drama", "Thriller" ],
+        "premiere": {
+            "date": "25 December 2014",
+            "country": "USA"
+        },
+        "description": "During World War II, mathematician Alan Turing tries to crack the enigma code with help from fellow mathematicians.",
+        "directors": [ "Morten Tyldum", "Kevin Moore" ],
+        "writers": [
+            {
+                "name": "Andrew Hodges",
+                "type": "book",
+                "info": "Alan Turing: The Enigma"
+            },
+
+            {
+                "name": "Graham Moore",
+                "type": "screenplay"
+
+            }
+        ],
+        "stars": [
+            "Benedict Cumberbatch",
+            "Keira Knightley",
+            "Matthew Goode"
+        ],
+        "thumbnail": "//ia.media-imdb.com/images/M/MV5BNDkwNTEyMzkzNl5BMl5BanBnXkFtZTgwNTAwNzk3MjE@._V1_SX640_SY720_.jpg",
+        "fullphoto": "//pichdwallpaper.com/wp-content/uploads/2015/01/Benedict_Cumberbatch_The_Imitation_Game--1600x1200.jpg",
+        "photos": [
+            "//ia.media-imdb.com/images/M/MV5BNjAxMDY4ODMzN15BMl5BanBnXkFtZTgwODgyNjE0MzE@._V1__SX640_SY720_.jpg",
+            "//ia.media-imdb.com/images/M/MV5BNjQzMDU2NDUyOF5BMl5BanBnXkFtZTgwOTgyNjE0MzE@._V1__SX640_SY720_.jpg",
+            "//ia.media-imdb.com/images/M/MV5BNzA1NTY4NDYwOF5BMl5BanBnXkFtZTgwMDkyNjE0MzE@._V1__SX640_SY720_.jpg"
+        ],
+        "trailer": [
+            {
+                "type": "",
+                "url": ""
+            },
+            {
+                "type": "",
+                "url": ""
+            },
+            {
+                "type": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "duration": 142,
+        "rating": {
+            "value": 9.3,
+            "users": 1375511
+        },
+        "genre": [ "Crime", "Drama" ],
+        "premiere": {
+            "date": "14 October 1994",
+            "country": "USA"
+        },
+        "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "directors": [ "Frank Darabont" ],
+        "writers": [
+            {
+                "name": "Stephen King",
+                "type": "short story",
+                "info": "Rita Hayworth and Shawshank Redemption"
+            },
+            {
+                "name": "Frank Darabont",
+                "type": "screenplay"
+
+            }
+        ],
+        "stars": [
+            "Tim Robbins",
+            "Morgan Freeman",
+            "Bob Gunton"
+        ],
+        "thumbnail": "//ia.media-imdb.com/images/M/MV5BMTcxMzgyNzk2Ml5BMl5BanBnXkFtZTcwNDEzNTkyMQ@@._V1__SX640_SY720_.jpg",
+        "fullphoto": "//www.hdwallpapersinn.com/wp-content/uploads/2014/09/the-shawshank-redemption.jpg",
+        "photos": [
+            "//ia.media-imdb.com/images/M/MV5BMTM0NjUxMDk5MF5BMl5BanBnXkFtZTcwNDMxNDY3Mw@@._V1__SX640_SY720_.jpg",
+            "//ia.media-imdb.com/images/M/MV5BMTk3NDE2Nzg3Nl5BMl5BanBnXkFtZTcwNTMxNDY3Mw@@._V1__SX640_SY720_.jpg",
+            "//ia.media-imdb.com/images/M/MV5BMTkzMTY0MjE5MV5BMl5BanBnXkFtZTcwODMxNDY3Mw@@._V1_SX640_SY720_.jpg"
+        ],
+        "trailer": [
+            {
+                "type": "",
+                "url": ""
+            },
+            {
+                "type": "",
+                "url": ""
+            },
+            {
+                "type": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "The Godfather",
+        "year": 1974,
+        "duration": 175,
+        "rating": {
+            "value": 9.2,
+            "users": 946642
+        },
+        "genre": [ "Crime", "Drama" ],
+        "premiere": {
+            "date": "24 March 1974",
+            "country": "USA"
+        },
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "directors": [ "Francis Ford Coppola" ],
+        "writers": [
+            {
+                "name": "Mario Puzo",
+                "type": "screenplay"
+            },
+
+            {
+                "name": "Francis Ford Coppola",
+                "type": "screenplay"
+
+            }
+        ],
+        "stars": [
+            "Marlon Brando",
+            "Al Pacino",
+            "James Caan"
+        ],
+        "thumbnail": "//ia.media-imdb.com/images/M/MV5BMjEyMjcyNDI4MF5BMl5BanBnXkFtZTcwMDA5Mzg3OA@@._V1_SX640_SY720_.jpg",
+        "fullphoto": "//images4.fanpop.com/image/photos/15900000/The-Godfather-the-godfather-trilogy-15983248-1600-1200.jpg",
+        "photos": [
+            "//ia.media-imdb.com/images/M/MV5BMzc3MDcxNDEzMV5BMl5BanBnXkFtZTcwMDY0Mzg4Mw@@._V1_SX640_SY720_.jpg",
+            "//ia.media-imdb.com/images/M/MV5BMjE0MzQ4NzE5M15BMl5BanBnXkFtZTYwMTMwMzI2._V1_SX640_SY720_.jpg",
+            "//ia.media-imdb.com/images/M/MV5BMTIyMjM2ODgwOF5BMl5BanBnXkFtZTYwNTU0NTQ2._V1__SX961_SY262_.jpg"
+        ],
+        "trailer": [
+            {
+                "type": "",
+                "url": ""
+            },
+            {
+                "type": "",
+                "url": ""
+            },
+            {
+                "type": "",
+                "url": ""
+            }
+        ]
+    }
+]

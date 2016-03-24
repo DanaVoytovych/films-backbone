@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Backbone_films</title>
+    <link href="Site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+</head>
+<body>
+    <ul id="filmsList"></ul>
+
+    <div id="filmInfo"></div>
+
+    <script type="text/template" id="filmItem">
+        <%= title %>
+        <a href="#getFilm/<%= id %>">
+            <img src="<%= thumbnail %>" />
+        </a>
+        <span class="year"><%= year %></span>
+    </script>
+
+
+
+    <script type="text/template" id="singleFilmItem">
+        <%= title %><br>
+        <%= year %><br>
+        <%= duration %><br>
+        <%= directors %><br>
+        <%= premiere.country %>, <%= premiere.date %><br>
+        <%= rating.users %>, <%= rating.value %><br>
+        <span>Stars:</span>
+        <ul class="singleGenre genre">
+            <% _.each(stars, function(singleGenre){ %>
+                <li><%= singleGenre %></li>
+            <% }); %>
+        </ul>
+        <span>Writers:</span>
+        <ul class="singleGenre">
+            <% _.each(writers, function(singleWriter){ %>
+                <li>
+                    <%= singleWriter.info %></br>
+                    <%= singleWriter.name %></br>
+                    <%= singleWriter.type %></br>
+                </li>
+            <% }); %>
+        </ul>
+        <span>Genre:</span>
+        <ul class="singleGenre genre">
+            <% _.each(genre, function(singleGenre){ %>
+                <li><%= singleGenre %></li>
+            <% }); %>
+        </ul>
+        <ul class="singleGenre ololo">
+            <% _.each(photos, function(singleGenre){ %>
+             <a class="fancybox" rel="group" href="<%= singleGenre %>"><img src="<%= singleGenre %>" /></a>
+            <% }); %>
+        </ul>
+    </script>
+
+    <script id="view-id" type="text/html">
+        This is the view content.
+    </script>
+   
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/underscore.js"></script>
+    <script src="bower_components/backbone.js"></script>
+
+    <script src="js/models.js"></script>
+    <script src="js/collections.js"></script>
+    
+    <script src="js/views/filmsListView.js"></script>
+    <script src="js/views/filmView.js"></script>
+    <script src="js/views/singleFilmView.js"></script>
+    <script src="js/views/routView.js"></script>
+
+
+    <script src="js/routers.js"></script>
+
+    <script src="js/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+        });
+    </script>
+</body>
+</html>
